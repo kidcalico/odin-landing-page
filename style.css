@@ -82,8 +82,11 @@ h1 {
 
 .hero-image {
     flex: 1;
-    background-color: #eee;
-    height: 150px;
+    /* background-color: #eee; */
+}
+
+.hero-image img {
+    max-width: 450px;
 }
 
 .information {
@@ -133,10 +136,19 @@ h1 {
     font-weight: 300;
 }
 
+.quote p {
+    font-style: italic;
+}
+
 .quote h4 {
     font-size: 24px;
     text-align: right;
-    padding-right: 24px;
+    /* padding-right: 24px; */
+}
+
+.quote a {
+    color:#1F2937;
+    font-size: 24px;
 }
 
 .cta {
