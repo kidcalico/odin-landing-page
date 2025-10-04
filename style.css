@@ -78,6 +78,7 @@ h1 {
 
 .hero-image img {
     flex: 0 1 40vw;
+    width: 40vw;
     max-width: 450px;
 }
 
