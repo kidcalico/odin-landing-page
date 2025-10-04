@@ -97,12 +97,19 @@ h1 {
     color: #1F2937;
 }
 
+
 .image-caption {
     width: min-content;
     display: flex;
     gap: 36px;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .image-caption {
+        flex-direction: column;
+    }}
 }
 
 .imcap {
